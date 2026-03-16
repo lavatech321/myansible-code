@@ -1,0 +1,7 @@
+---
+- hosts: prodserver
+  tasks:
+    - name: testing
+      file:
+        name: /tmp/one.txt
+        state: touch 
