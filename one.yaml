@@ -11,9 +11,5 @@
       loop:
         - ravi
         - jimi
-    - name: "install package"
-      yum:
-        name: httpd
-        state: present
 ...
   
