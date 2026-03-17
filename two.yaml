@@ -4,5 +4,8 @@
   tasks:
     - name: testing
       file:
-        name: /tmp/one.txt
+        name: {{ item }}
         state: touch 
+      loop:
+        - /one.txt
+        - /two.txt
