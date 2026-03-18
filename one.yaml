@@ -1,6 +1,5 @@
 ---
-- hosts: localhost
-  become: true
+- hosts: 192.168.1.10
   vars:
     pname: "httpd"
   tasks:
